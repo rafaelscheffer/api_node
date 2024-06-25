@@ -11,6 +11,7 @@ import { MongoDeleteUserRepository } from "./repositories/delete-user/mongo-dele
 import { DeleteUserController } from "./controllers/delete-user/delete-user";
 
 const main = async () => {
+  
   config();
 
   const app = express();
